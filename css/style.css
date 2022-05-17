@@ -46,19 +46,20 @@ body {
     left: 50%;
     /* -50% of the size on the left and up */
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 .heading-primary {
     color: antiquewhite;
     text-transform: uppercase;
-
     /* remove shake after animation */
     backface-visibility: hidden;
+    margin-bottom: 60px;
 }
 .heading-primary-main {
     display: block;
     font-size: 60px;
     font-weight: 400;
-    letter-spacing: 35px;
+    letter-spacing: 20px;
     animation-name: moveInLeft;
     animation-duration: 3s;
     animation-timing-function: ease-out;
@@ -97,4 +98,26 @@ body {
         opacity: 1;
         transform: translate(0);
     }
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+}
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 25px rgba(0,0,0,.2);
+}
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 80px rgba(0,0,0,.2);
+}
+.btn-white {
+    background-color: #fff;
+    color: #777;
 }
