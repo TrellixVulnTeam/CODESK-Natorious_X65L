@@ -26,10 +26,48 @@ body {
     height: 95vh;
     background-image: linear-gradient(
         to right bottom,
-        hsla(111, 55%, 64%, 0.802),
-        hsla(160, 64%, 43%, 0.799)),
+        hsla(111, 55%, 64%, 0.9),
+        hsla(160, 64%, 43%, 0.9)),
         url(../img/hero.jpg);
     background-size: cover;
     background-position: top;
+    position: relative;
     clip-path:polygon(0 0, 100% 0, 100% 85vh, 0 100%);
 }
+
+.logo-box {
+    position: absolute;
+    /* counting from parent relative */
+    top: 40px;
+    left: 40px;
+}
+.logo {
+    height: 35px;
+}
+
+.text-box {
+    /* 50% from parent */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* -50% of the size on the left and up */
+    transform: translate(-50%, -50%);
+}
+
+.heading-primary {
+    color: antiquewhite;
+    text-transform: uppercase;
+}
+.heading-primary-main {
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 35px;
+}
+.heading-primary-sub {
+   display: block;
+   font-size: 22px;
+   font-weight: 400;
+   letter-spacing: 10px;
+}
+
