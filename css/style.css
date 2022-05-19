@@ -127,12 +127,12 @@ body {
     font-size: 1.4rem;
 }
 .btn:hover {
-    transform: translateY(-0.3rem);
-    box-shadow: 0 0.6rem 2.5rem rgba(0,0,0,.2);
+    transform: translateY(-0.2rem);
+    /* box-shadow: 0 0.6rem 2.5rem rgba(0,0,0,.2); */
 }
 .btn:active {
     transform: translateY(-0.1rem);
-    box-shadow: 0 0.3rem 1rem rgba(0,0,0,.2);
+    /* box-shadow: 0 0.3rem 1rem rgba(0,0,0,.2); */
 }
 .btn-white {
     background-color: #fff;
