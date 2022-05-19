@@ -1,0 +1,22 @@
+{
+  "name": "codesk-natorious",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siouxx0612/CODESK-Natorious.git"
+  },
+  "author": "Matija Kosmac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Siouxx0612/CODESK-Natorious/issues"
+  },
+  "homepage": "https://github.com/Siouxx0612/CODESK-Natorious#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
